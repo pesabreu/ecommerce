@@ -1,0 +1,19 @@
+{
+    "name": "pesabreu/ecommerce",
+    "authors": [
+        {
+            "name": "Pesabreu WMS",
+            "email": "suporte@pesabreu.com.br"
+        }
+    ],
+    "require": {
+    	"phpmailer/phpmailer":"5.2.22",
+    	"slim/slim":"2.0",
+    	"rain/raintpl":"3.0.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "": "vendor\\pesabreu\\php-classes\\src"
+        }
+    }
+}
