@@ -8,7 +8,13 @@ $app->config('debug', true);
 
 $app->get('/', function() {
     
-	echo "OK";
+	//echo "Ecommerce Pesabreu WMS <br /><br />";
+	
+	$sql = new pesabreu\DB\Sql();
+	
+	$res = $sql->select("SELECT * FROM tb_users");
+	
+	echo json_encode($res);
 
 });
 
