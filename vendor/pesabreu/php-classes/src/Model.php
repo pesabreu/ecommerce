@@ -16,6 +16,7 @@ class Model
 			case "get":
 				return $this->values[$fieldname];
 				break;
+			
 			case "set":
 				$this->values[$fieldname] = $args[0];
 				break;
